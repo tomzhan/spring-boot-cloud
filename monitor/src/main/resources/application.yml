@@ -10,12 +10,6 @@ turbine:
     port: 8041
 
 eureka:
-  instance:
-    hostname: 192.168.1.5
-    prefer-ip-address: true
-    metadata-map:
-      user.name: ${security.user.name}
-      user.password: ${security.user.password}
   client:
     service-url:
       defaultZone: http://user:${REGISTRY_SERVER_PASSWORD:password}@192.168.1.5:8761/eureka/
