@@ -3,7 +3,7 @@ spring:
     name: svca-service
   cloud:
     config:
-      uri: http://192.168.5.185:8888
+      uri: http://192.168.1.102:8888
       fail-fast: true
       username: user
       password: ${CONFIG_SERVER_PASSWORD:password}
