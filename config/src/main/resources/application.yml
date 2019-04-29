@@ -13,8 +13,8 @@ spring:
         git:
           uri: https://github.com/tomzhan/spring-boot-cloud
           search-paths: config-repo
-#  rabbitmq:
-#    host: rabbitmq
+  rabbitmq:
+    host: 192.168.1.102
 
 security:
   user:
