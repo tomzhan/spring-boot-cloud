@@ -17,6 +17,9 @@ eureka:
 spring:
   rabbitmq:
     host: 192.168.1.102
+    port: 15673
+    username: guest
+    password: guest
   boot:
     admin:
       routes:
